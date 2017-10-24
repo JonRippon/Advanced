@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "vnetName": {
-      "value": "VNet1"
+      "value": "Vnet-SharedServices-Prod"
     },
     "vnetAddressPrefix": {
-      "value": "10.0.0.0/16"
+      "value": "172.26.84.0/25"
     },
     "subnet1Name": {
-      "value": "Subnet1"
+      "value": "Management"
     },
     "subnet1Prefix": {
-      "value": "10.0.0.0/24"
+      "value": "172.26.84.0/28"
     },
     "subnet2Name": {
-      "value": "Subnet2"
+      "value": "AD Subnet"
     },
     "subnet2Prefix": {
-      "value": "10.0.1.0/24"
+      "value": "172.26.84.0/28"
     }
   }
 }

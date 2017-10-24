@@ -1,0 +1,24 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vnetName": {
+      "value": "Vnet-SharedServices-Prod"
+    },
+    "vnetAddressPrefix": {
+      "value": "172.26.84.0/25"
+    },
+    "subnet1Name": {
+      "value": "Management"
+    },
+    "subnet1Prefix": {
+      "value": "172.26.84.0/28"
+    },
+    "subnet2Name": {
+      "value": "AD Subnet"
+    },
+    "subnet2Prefix": {
+      "value": "172.26.84.0/28"
+    }
+  }
+}
